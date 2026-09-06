@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veloce Motors</title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+ <header>
+   <nav>
+            <a href="buy.html"><img src="logo2.png" alt="" class="nav-barimg"></a>
+        </nav>
+    
+  </header>
+   <main>
+      <section>
+         <div class="car">
+            <!-- <img src="porsche911.jpg" alt=""> -->
+            <h1 class="car-name"></h1>
+            <p class="car-price"></p>
+         </div>
+         <div class="container">
+<form action="" id="paymentform">
+<label for="">Card number</label><br>
+<input id="cardnumber" type="number" placeholder="💳 ....  .... .... ...." required class="pay"><br><br>
+<label for="">Expiration date</label><br>
+<input id="expirationdate" type="date" required class="pay"><br><br>
+<label for="">CVC</label><br>
+<input id="cvc" type="number" placeholder=". . ." required class="pay"><br><br>
+<label for="">Name on card</label><br>
+<input id="nameoncard" type="text" placeholder="Name on card" required must be 3 chracters long class="pay"><br><br>
+<button id="button" class="btn">Pay</button>
+</form>
+   </div>
+      </section>
+   </main>
+   
+
+</body>
+<script src="payment.js"></script>
+</html>
